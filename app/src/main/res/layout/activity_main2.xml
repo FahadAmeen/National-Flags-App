@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.fahdamin.lab3v2.Main2Activity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idImageView"
+        android:scaleType="centerInside"
+        android:src="@drawable/ad"
+        android:background="#11000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/idTextView"
+        android:layout_margin="15dp"
+        android:padding="10dp"
+        android:background="#55000000"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp"
+    >
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_alignParentBottom="true"
+
+        />
+
+    <Button
+
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/button1"
+
+        />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/button2"
+
+        />
+
+    <Button
+
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/button3"
+
+        />
+
+</RelativeLayout>
+
+
+
+</LinearLayout>
